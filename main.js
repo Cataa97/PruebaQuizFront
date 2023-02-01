@@ -17,7 +17,7 @@ function quiz() {
   let numberOptions = document.getElementById("numberOptions").value;
   let dificultad = document.getElementById("difficulty").value;
   let correcta = document.getElementById("correct").value;
-  const message = `Genera ${numberQuestions} preguntas sobre ${topics} con ${numberOptions} opciones de dificultad ${dificultad} en el idioma ${language},mostrar opción ${correcta}, el resultado debe estar en formato JSON con las claves en inglés.`;
+  const message = `Genera ${numberQuestions} preguntas sobre ${topics} con ${numberOptions} opciones de dificultad ${dificultad} en el idioma ${language}, ${correcta}, el resultado debe estar en formato JSON con las claves en inglés.`;
   
   return message;
 }
