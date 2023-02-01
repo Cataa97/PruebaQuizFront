@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Quiz LarnU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css?v=8" />
+  </head>
+  <body>
+    <div class="chat-box">
+      <div class="chat-box-header">LarnU</div>
+      <div class="chat-box-body">
+      </div>
+      <div class="chat-box-footer">
+        Tema<input type="text" placeholder="Topics..." id="topics"/>
+        Numero de preguntas<input type="number" min="1" max="10" id="numberQuestions"/>
+        Idioma<select id="language">
+          <option value="español">Español</option>
+          <option value="ingles">Ingles</option>
+        </select>
+        Numero de opciones<input type="number" id="numberOptions" min="1" max="5">
+        Dificultad<select id="difficulty">
+          <option value="easy">colegio</option>
+          <option value="hard">universidad</option>
+        </select>
+        Mostrar Correcta <select id="correct">
+          <option value="mostrar opcion correcta">Si</option>
+          <option value="">No</option>
+        </select>
+        <button onclick="quiz()">Enviar</button>
+      </div>
+    </div>
+    <div class="larnu">
+      <p>Created by LarnU</p>
+    </div>
+    <script src="./main.js?v=5"></script>
+  </body>
+</html>
